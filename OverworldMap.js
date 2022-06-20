@@ -126,7 +126,9 @@ window.OverworldMaps = {
       npcA: new GameObject({
         x: 9,
         y: 6,
-        src: "github.com/moji-joji/testjune/blob/master/images/characters/people/npc2.png",
+        src: url(
+          "github.com/moji-joji/testjune/blob/master/images/characters/people/npc2.png"
+        ),
       }),
       npcB: new GameObject({
         x: 10,
