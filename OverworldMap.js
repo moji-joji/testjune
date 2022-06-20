@@ -72,10 +72,8 @@ class OverworldMap {
 
 window.OverworldMaps = {
   DemoRoom: {
-    lowerSrc:
-      "https://github.com/moji-joji/testjune/blob/master/images/maps/DemoLower.png",
-    upperSrc:
-      "https://github.com/moji-joji/testjune/blob/master/images/maps/DemoUpper.png",
+    lowerSrc: "images/maps/DemoLower.png",
+    upperSrc: "images/maps/DemoUpper.png",
     gameObjects: {
       hero: new Person({
         isPlayerControlled: true,
