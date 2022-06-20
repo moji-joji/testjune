@@ -117,7 +117,7 @@ window.OverworldMaps = {
     lowerSrc:
       "https://github.com/moji-joji/testjune/blob/master/images/maps/KitchenLower.png",
     upperSrc:
-     "https://github.com/moji-joji/testjune/blob/master/images/maps/KitchenUpper.png",
+      "https://github.com/moji-joji/testjune/blob/master/images/maps/KitchenUpper.png",
     gameObjects: {
       hero: new GameObject({
         x: 3,
@@ -126,9 +126,7 @@ window.OverworldMaps = {
       npcA: new GameObject({
         x: 9,
         y: 6,
-        src: url(
-          "https://github.com/moji-joji/testjune/blob/master/images/characters/people/npc2.png"
-        ),
+        src: "https://github.com/moji-joji/testjune/blob/master/images/characters/people/npc2.png",
       }),
       npcB: new GameObject({
         x: 10,
